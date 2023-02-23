@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html data-theme="dark" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/output.css">
+    <link rel="stylesheet" href="/icons/css/all.css">
+    <link rel="stylesheet" href="/src/css/stile.css">
+    <title>Infogragraphic Amazon Apps</title>
+</head>
+<body>
+    <div id="title">
+        <div id="navbar" class="navbar">
+            <div class="flex-none">
+                <div class="dropdown dropdown-hover">
+                    <label tabindex="0" class="btn m-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg>
+                    </label>
+                    <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-300 rounded-box w-52">
+                        <li><label for="as">Amazon Shopping</label></li>
+                        <li><label for="pv">Prime Video</label></li>
+                        <li><label for="ak">Amazon Kindle</label></li>
+                        <li><label for="au">Audible</label></li>
+                        <li><label for="tw">Twitch</label></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex-1">
+                <a class="btn btn-ghost normal-case text-xl">Amazon Apps</a>
+            </div>
+        </div>
+        <div id="other">
+            <div id="alert" class="alert shadow-lg">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-info flex-shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <span>Open the apps on the Iphone.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- App Infogragraphic -->
+    <div id="iphone-box">
+        <div class="mockup-phone" id="iphone">
+            <div class="camera"></div> 
+            <div class="display">
+                <div id="sfondo" class="artboard artboard-demo phone-1">
+                    <div id="apps">
+
+                        <div>
+                            <label id="scaler" for="as">
+                                <img id="amas" src="https://img.icons8.com/color/240/null/amazon_shopping_app.png"/>
+                                <small>Amazon Shopping</small>
+                            </label>
+                            <input type="checkbox" id="as" class="modal-toggle" />
+                            <label class="modal" for="as">
+                                <label for="" id="model" class="modal-box">
+                                    <div id="as-img" class="card bg-base-100">
+                                                                                                                       
+                                    </div>
+                                </label>
+                            </label>
+                        </div>
+                        <div>
+                            <label id="scaler" for="pv">
+                                <img id="priv" src="https://img.icons8.com/fluency/240/null/amazon-prime-video.png"/>
+                                <small>Prime Video</small>
+                            </label>
+                            <input type="checkbox" id="pv" class="modal-toggle" />
+                            <label class="modal" for="pv">
+                                <label for="" id="model" class="modal-box">
+                                    <div id="pv-img" class="card bg-base-100">
+                                        
+                                    </div>
+                                </label>
+                            </label>
+                        </div>
+                        <div>
+                            <label id="scaler" for="tw">
+                                <img id="twitch" src="https://img.icons8.com/color/240/null/twitch--v1.png"/>
+                                <small>Twitch</small>
+                            </label>
+                            <input type="checkbox" id="tw" class="modal-toggle" />
+                            <label class="modal" for="tw">
+                                <label for="" id="model" class="modal-box">
+                                    <div id="tw-img" class="card bg-base-100">
+                                        
+                                    </div>
+                                </label>
+                            </label>
+                        </div>
+                        <div>
+                            <label id="scaler" for="ak">
+                                <img id="amak" src="https://img.icons8.com/color/240/null/amazon-kindle.png"/>
+                                <small>Amazon Kindle</small>
+                            </label>
+                            <input type="checkbox" id="ak" class="modal-toggle" />
+                            <label class="modal" for="ak">
+                                <label for="" id="model" class="modal-box">
+                                    <div class="card bg-base-100">
+                                        
+                                    </div>
+                                </label>
+                            </label>
+                        </div>
+                        <div>
+                            <label id="scaler" for="au">
+                                <img id="audible" src="https://img.icons8.com/bubbles/240/null/audible.png"/>
+                                <small>Audible</small>
+                            </label>
+                            <input type="checkbox" id="au" class="modal-toggle" />
+                            <label class="modal" for="au">
+                                <label for="" id="model" class="modal-box">
+                                    <div class="card bg-base-100">
+                                        
+                                    </div>
+                                </label>
+                            </label>
+                        </div>
+
+                    </div>
+                    <div id="bottommenu" class="btm-nav">
+                        <button>
+                            <i class="fa-brands fa-app-store"></i>
+                        </button>
+                        <button>
+                            <i class="fa-solid fa-home"></i>
+                        </button>
+                        <button>
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="src/main.ts" type="module"></script>
+</body>
+</html>
